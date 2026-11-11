@@ -18,6 +18,3 @@ Ejemplos en esta carpeta:
 1. ListaSimple.java    -> crear nodos, insertar al inicio y al final, imprimir
 2. EliminarNodo.java   -> eliminar por valor (caso especial: la cabeza)
 3. InvertirLista.java  -> invertir la lista cambiando las referencias
-
-Ejercicio propuesto:
-Escribe un método que cuente cuántos nodos tiene una lista.

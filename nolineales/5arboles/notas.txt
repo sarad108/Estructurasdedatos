@@ -26,5 +26,4 @@ Ejemplos en esta carpeta:
 2. RecorridosArbol.java      -> preorden, inorden, postorden y por niveles
 3. ArbolCarpetas.java        -> árbol con varios hijos (como un explorador de archivos)
 
-Ejercicio propuesto:
-Escribe un método que cuente cuántas hojas tiene un árbol binario.
+

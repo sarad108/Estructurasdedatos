@@ -17,6 +17,3 @@ Ejemplos en esta carpeta:
 1. TurnosBanco.java    -> atender clientes en orden de llegada
 2. ColaImpresion.java  -> procesar documentos enviados a una impresora
 3. PapaCaliente.java   -> juego de eliminación circular con una cola
-
-Ejercicio propuesto:
-Simula una cola de un banco con dos cajas que atienden al siguiente cliente disponible.

@@ -16,5 +16,3 @@ Ejemplos en esta carpeta:
 2. InvertirCadena.java    -> invierte un texto metiendo y sacando letras
 3. DeshacerTexto.java     -> simula el "deshacer" de un editor
 
-Ejercicio propuesto:
-Diseña un programa que verifique si una cadena con (), [] y {} está balanceada.

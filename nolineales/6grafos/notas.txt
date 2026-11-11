@@ -26,5 +26,3 @@ Ejemplos en esta carpeta:
 2. RecorridoBFS.java -> camino más corto (en saltos) entre dos nodos
 3. RecorridoDFS.java -> recorrido en profundidad y conteo de grupos conectados
 
-Ejercicio propuesto:
-Dada una red de amigos, encuentra quién tiene más conexiones.

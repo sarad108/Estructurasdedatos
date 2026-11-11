@@ -22,5 +22,3 @@ Ejemplos en esta carpeta:
 2. AgendaContactos.java -> guardar, buscar y eliminar contactos por nombre
 3. DosSuma.java         -> encontrar dos números que sumen un objetivo en un solo recorrido
 
-Ejercicio propuesto:
-Dada una cadena, encuentra el primer carácter que no se repite.

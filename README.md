@@ -72,12 +72,3 @@ java InvertirCadena
 ```
 
 > `BalanceParentesis` pide una cadena por teclado, por ejemplo `(())()`.
-
-## Ejercicios propuestos
-
-Cada `notas.txt` termina con un ejercicio para practicar por tu cuenta. Algunos ejemplos:
-
-- **Arreglos:** contar cuántos números pares tiene un arreglo.
-- **Pilas:** verificar si una cadena con `()`, `[]` y `{}` está balanceada.
-- **Árboles:** contar las hojas de un árbol binario.
-- **Tablas hash:** encontrar el primer carácter que no se repite en una cadena.
