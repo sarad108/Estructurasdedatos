@@ -1,0 +1,30 @@
+GRAFOS
+
+Conjunto de NODOS (vértices) conectados por ARISTAS (conexiones).
+A diferencia de un árbol, puede haber ciclos y no hay raíz.
+
+  Ana --- Luis
+   |       |
+  Marta -- Pedro --- Sofía
+
+- Dirigido: la conexión tiene sentido (seguir a alguien en Instagram).
+- No dirigido: la conexión es en ambos sentidos (ser amigos en Facebook).
+- Ponderado: las aristas tienen un valor (distancia, costo).
+
+Formas de guardarlo:
+- Lista de adyacencia: cada nodo guarda la lista de sus vecinos (usa poca memoria, la más común).
+- Matriz de adyacencia: tabla n x n de 0 y 1 (rápida para preguntar "¿están conectados?").
+
+Recorridos:
+- BFS (en anchura): explora por capas usando una COLA -> sirve para el camino más corto en saltos.
+- DFS (en profundidad): se mete lo más hondo posible usando recursión/PILA.
+
+Cuándo usarlo: redes sociales, mapas y rutas (Google Maps), internet, recomendaciones.
+
+Ejemplos en esta carpeta:
+1. GrafoAmigos.java  -> lista de adyacencia con una red de amigos
+2. RecorridoBFS.java -> camino más corto (en saltos) entre dos nodos
+3. RecorridoDFS.java -> recorrido en profundidad y conteo de grupos conectados
+
+Ejercicio propuesto:
+Dada una red de amigos, encuentra quién tiene más conexiones.

@@ -1,0 +1,20 @@
+PILAS (stack) - LIFO: el último en entrar es el primero en salir
+
+Como una pila de platos: solo agregas y quitas por la parte de arriba (el "tope").
+
+Operaciones principales (todas O(1)):
+- push(x)   -> agrega x al tope
+- pop()     -> quita y devuelve el tope
+- peek()    -> mira el tope sin quitarlo
+- isEmpty() -> dice si está vacía
+
+Cuándo usarla: deshacer/rehacer (Ctrl+Z), historial del navegador, revisar paréntesis,
+llamadas recursivas (la pila de ejecución).
+
+Ejemplos en esta carpeta:
+1. BalanceParentesis.java -> verifica si los paréntesis están balanceados
+2. InvertirCadena.java    -> invierte un texto metiendo y sacando letras
+3. DeshacerTexto.java     -> simula el "deshacer" de un editor
+
+Ejercicio propuesto:
+Diseña un programa que verifique si una cadena con (), [] y {} está balanceada.

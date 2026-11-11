@@ -1,0 +1,17 @@
+ARREGLOS (arrays)
+
+Un arreglo guarda elementos del MISMO tipo en posiciones consecutivas de memoria.
+- Tamaño fijo: se define al crearlo y no cambia.
+- Acceso por posición (índice): arreglo[i] es O(1), instantáneo.
+- Buscar un valor sin orden: O(n). Si está ORDENADO se puede usar búsqueda binaria: O(log n).
+- Insertar o eliminar en medio es costoso O(n): hay que correr los demás elementos.
+
+Cuándo usarlo: cuando sabes cuántos datos son y necesitas acceso rápido por posición.
+
+Ejemplos en esta carpeta:
+1. PromedioNotas.java    -> recorrer un arreglo (suma, promedio, mayor y menor)
+2. InvertirArreglo.java  -> intercambiar elementos con dos índices
+3. BusquedaBinaria.java  -> buscar en un arreglo ordenado dividiendo a la mitad
+
+Ejercicio propuesto:
+Dado un arreglo de enteros, cuenta cuántos números pares tiene.

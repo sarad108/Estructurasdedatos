@@ -1,0 +1,26 @@
+TABLAS HASH / MAPAS (HashMap)
+
+Guardan pares CLAVE -> VALOR. Una función hash convierte la clave en una posición,
+por eso buscar, insertar y eliminar es O(1) en promedio.
+
+  "ana"   -> 3001234567
+  "luis"  -> 3109876543
+
+- Las claves son únicas: si repites una clave, se reemplaza el valor.
+- No tiene un orden garantizado (HashMap). TreeMap los ordena; LinkedHashMap mantiene el orden de inserción.
+- Colisión: dos claves distintas caen en la misma posición; Java la maneja por dentro.
+- HashSet: es como un mapa pero solo con claves (sirve para saber si algo ya apareció).
+
+Métodos principales en Java:
+- put(clave, valor)  | get(clave)  | containsKey(clave)
+- remove(clave)      | getOrDefault(clave, porDefecto) | size()
+
+Cuándo usarla: contar frecuencias, diccionarios, cachés, buscar duplicados, agendas.
+
+Ejemplos en esta carpeta:
+1. ContarPalabras.java  -> contar cuántas veces aparece cada palabra
+2. AgendaContactos.java -> guardar, buscar y eliminar contactos por nombre
+3. DosSuma.java         -> encontrar dos números que sumen un objetivo en un solo recorrido
+
+Ejercicio propuesto:
+Dada una cadena, encuentra el primer carácter que no se repite.

@@ -1,0 +1,22 @@
+COLAS (queue) - FIFO: el primero en entrar es el primero en salir
+
+Como la fila de un banco: entras por el final y te atienden por el frente.
+
+Operaciones principales (todas O(1)):
+- offer(x) / add(x) -> agrega x al final de la cola
+- poll() / remove() -> quita y devuelve el elemento del frente
+- peek()            -> mira el frente sin quitarlo
+- isEmpty()         -> dice si está vacía
+
+En Java: Queue<String> cola = new LinkedList<>();
+Variantes: cola de prioridad (PriorityQueue) y doble cola (Deque).
+
+Cuándo usarla: turnos, cola de impresión, tareas pendientes, recorrido BFS en grafos y árboles.
+
+Ejemplos en esta carpeta:
+1. TurnosBanco.java    -> atender clientes en orden de llegada
+2. ColaImpresion.java  -> procesar documentos enviados a una impresora
+3. PapaCaliente.java   -> juego de eliminación circular con una cola
+
+Ejercicio propuesto:
+Simula una cola de un banco con dos cajas que atienden al siguiente cliente disponible.

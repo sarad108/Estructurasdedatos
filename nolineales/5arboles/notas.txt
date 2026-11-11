@@ -1,0 +1,30 @@
+ÁRBOLES
+
+Estructura jerárquica de nodos: hay una RAÍZ y cada nodo tiene hijos.
+Un nodo sin hijos se llama HOJA. No hay ciclos.
+
+            50          <- raíz
+           /  \
+         30    70
+        / \   /  \
+      20  40 60  80     <- hojas
+
+Árbol binario: cada nodo tiene máximo 2 hijos (izquierdo y derecho).
+Árbol binario de búsqueda (ABB): izquierda < nodo < derecha.
+  Buscar, insertar y eliminar cuestan O(log n) si está equilibrado.
+
+Recorridos:
+- Preorden:  raíz, izquierda, derecha
+- Inorden:   izquierda, raíz, derecha (en un ABB sale ORDENADO)
+- Postorden: izquierda, derecha, raíz
+- Por niveles: nivel por nivel, usando una cola
+
+Cuándo usarlo: carpetas y archivos, menús, organigramas, búsquedas rápidas, HTML/DOM.
+
+Ejemplos en esta carpeta:
+1. ArbolBinarioBusqueda.java -> insertar, buscar y calcular la altura de un ABB
+2. RecorridosArbol.java      -> preorden, inorden, postorden y por niveles
+3. ArbolCarpetas.java        -> árbol con varios hijos (como un explorador de archivos)
+
+Ejercicio propuesto:
+Escribe un método que cuente cuántas hojas tiene un árbol binario.
