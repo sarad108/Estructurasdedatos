@@ -1,11 +1,11 @@
-# 📚 Estructuras de datos en Java
+# Estructuras de datos en Java
 
 Colección de ejercicios en Java para aprender estructuras de datos. Cada estructura tiene sus **notas teóricas** y **3 ejemplos ejecutables** con comentarios en español.
 
 ![Java](https://img.shields.io/badge/Java-11%2B-orange)
 ![Ejemplos](https://img.shields.io/badge/ejemplos-21-blue)
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 Estructurasdedatos/
@@ -22,7 +22,7 @@ Estructurasdedatos/
 
 Cada carpeta contiene un `notas.txt` (teoría, operaciones, cuándo usarla y un ejercicio propuesto) y los archivos `.java` de los ejemplos.
 
-## ➡️ Estructuras lineales
+## Estructuras lineales
 
 Los datos van uno detrás de otro, en secuencia.
 
@@ -33,7 +33,7 @@ Los datos van uno detrás de otro, en secuencia.
 | [Pila](lineales/3pilas) | Último en entrar, primero en salir (LIFO) | `BalanceParentesis`, `InvertirCadena`, `DeshacerTexto` |
 | [Cola](lineales/4colas) | Primero en entrar, primero en salir (FIFO) | `TurnosBanco`, `ColaImpresion`, `PapaCaliente` |
 
-## 🌳 Estructuras no lineales
+## Estructuras no lineales
 
 Los datos se organizan en jerarquías o conexiones, no en fila.
 
@@ -43,7 +43,7 @@ Los datos se organizan en jerarquías o conexiones, no en fila.
 | [Grafo](nolineales/6grafos) | Nodos conectados entre sí (redes sociales, mapas) | `GrafoAmigos`, `RecorridoBFS`, `RecorridoDFS` |
 | [Tabla hash](nolineales/7tablashash) | Pares clave → valor con búsqueda muy rápida | `ContarPalabras`, `AgendaContactos`, `DosSuma` |
 
-## ⏱️ Resumen de complejidad
+## Resumen de complejidad
 
 | Estructura | Acceso / búsqueda | Inserción | Eliminación |
 |---|---|---|---|
@@ -55,7 +55,7 @@ Los datos se organizan en jerarquías o conexiones, no en fila.
 | Grafo (recorridos BFS/DFS) | O(V + E) | — | — |
 | Tabla hash | O(1) promedio | O(1) promedio | O(1) promedio |
 
-## ▶️ Cómo ejecutar
+## Cómo ejecutar
 
 Necesitas tener **Java 11 o superior** instalado. Cada archivo es independiente.
 
@@ -73,7 +73,7 @@ java InvertirCadena
 
 > `BalanceParentesis` pide una cadena por teclado, por ejemplo `(())()`.
 
-## 🎯 Ejercicios propuestos
+## Ejercicios propuestos
 
 Cada `notas.txt` termina con un ejercicio para practicar por tu cuenta. Algunos ejemplos:
 
